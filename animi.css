@@ -1,0 +1,76 @@
+#universe{
+    background:black;
+   background: radial-gradient(rgb(39, 39, 39),#000);
+}
+@keyframes sunFire{
+    from{-webkit-box-shadow:0 0 50px #f5c91a}
+    to{-webkit-box-shadow:0 0 10px #f5c91a}
+}
+@keyframes spin{
+    from{ transform:rotate(0) ; -webkit-transform:rotate(0) ; -moz-transform:rotate(0) ; -ms-transform:rotate(0) ; -o-transform:rotate(0) ; }
+    to{ transform:rotate(360deg) ; -webkit-transform:rotate(360deg) ; -moz-transform:rotate(360deg) ; -ms-transform:rotate(360deg) ; -o-transform:rotate(360deg) ; }
+}
+img{
+    border-radius: 150%;
+    -webkit-border-radius: 150%;
+    -moz-border-radius: 150%;
+    -ms-border-radius: 150%;
+    -o-border-radius: 150%;
+}
+#sun{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(#f5c313,#ec7e08);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    margin-top: 20%;
+    margin-left: 50%;
+    -webkit-box-shadow:0 0 50px #f5c91a;
+    -webkit-animation: sunFire 4s infinite alternate;
+   
+}
+#earthorbit{
+    
+    height: 5in;
+    width: 6in;
+    margin-top:-3.5in;
+    margin-left: 5.5in;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-animation: spin 30s linear infinite;
+}
+ 
+#moonorbit{
+    
+    height: 150px;
+    width: 200px;
+    margin-top: -1.3in;
+    margin-left: -30px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-animation: spin 9s linear infinite reverse;
+}
+#moon{
+    height: 40px;
+    width: 40px;
+    background: grey;
+    background: -webkit-radial-gradient(#ddd,#888);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    
+}
+#earth{
+    -webkit-animation: spin 10s linear infinite;
+}
